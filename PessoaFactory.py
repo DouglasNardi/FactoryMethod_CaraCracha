@@ -1,4 +1,4 @@
-#Primeiro, vamos definir a classe base "Pessoa", que contém as propriedades comuns entre Aluno e Professor:
+#Primeiro, vamos definir a classe base "Pessoa", que contém as propriedades comuns entre todas:
 class Pessoa:
     def __init__(self, nome, idade, matricula):
         self.nome = nome
